@@ -1,0 +1,34 @@
+/* Style I */
+.roam-block-container:focus-within
+  > .rm-block-main
+  > div:nth-child(1)
+  .rm-bullet
+  .rm-bullet__inner {
+  background-color: #ff877e;
+}
+/* Style II */
+.roam-block-container:focus-within
+  > .rm-block-main
+  > div:nth-child(1)
+  .rm-bullet
+  .rm-bullet__inner {
+  background-color: #ff877e;
+  width: 8px;
+  height: 3px;
+  border-radius: 0px;
+  transition: width 300ms linear, height 300ms linear,
+    border-radius 300ms linear;
+}
+
+.roam-block-container
+  > .rm-block-main
+  > div:nth-child(1)
+  .rm-bullet
+  .rm-bullet__inner {
+  background-color: default;
+  width: default;
+  height: default;
+  border-radius: default;
+  transition: width 300ms linear, height 300ms linear,
+    border-radius 300ms linear;
+}
