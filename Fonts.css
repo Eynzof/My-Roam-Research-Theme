@@ -1,13 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
-
 /* 修改字体 */
 
 div,
 textarea,
-.level2,
-.rm-title-display,
+.level2 {
+  font-family: "Noto Serif SC", sans-serif !important;
+}
+
+/* 页面下方反向链接的标题 */
+
 .rm-page__title {
+  font-family: "Noto Serif SC", sans-serif !important;
+}
+
+/* 页面标题 */
+.rm-title-display {
+  font-family: "Noto Serif SC", sans-serif !important;
+}
+
+/* tag */
+span.rm-page-ref.rm-page-ref--tag {
   font-family: "Noto Serif SC", sans-serif !important;
 }
